@@ -1,0 +1,491 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+        <link
+            rel="stylesheet"
+            href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.2/css/all.min.css"
+        />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <link rel="stylesheet" href="./CSS/normalize.css" />
+        <link rel="stylesheet" href="./CSS/style.css" />
+        <link rel="icon" href="./imgs/favicon_io/favicon-32x32.png" />
+        <title>Special</title>
+    </head>
+    <body>
+        <!-- Start Settings Box -->
+        <div class="settings-box">
+            <div class="toggle-settings">
+                <i class="fa fa-gear setting-icon"></i>
+            </div>
+            <div class="settings-container">
+                <div class="option-box">
+                    <h4>Color</h4>
+                    <ul class="colors-list">
+                        <li class="active" data-color="#ff5e00"></li>
+                        <li data-color="#4e598c"></li>
+                        <li data-color="#009688"></li>
+                        <li data-color="#ff0000"></li>
+                        <li data-color="#289944"></li>
+                    </ul>
+                </div>
+                <div class="option-box">
+                    <h4>Background</h4>
+                    <div class="random-backgrounds">
+                        <span class="yes active" data-background="yes"
+                            >Yes</span
+                        >
+                        <span class="no" data-background="no">No</span>
+                    </div>
+                </div>
+                <div class="option-box">
+                    <h4>Show Bullets</h4>
+                    <div class="scrolling-bullets">
+                        <span class="yes active" data-display="show">show</span>
+                        <span class="no" data-display="hide">hide</span>
+                    </div>
+                </div>
+                <button class="reset-options">Reset Options</button>
+            </div>
+        </div>
+        <!-- End Settings Box -->
+
+        <!-- Start Landnig Page -->
+        <div class="landing-page">
+            <div class="overlay"></div>
+
+            <!-- Start Navbar -->
+            <div class="container">
+                <nav>
+                    <div class="logo">Special<span>Bite</span></div>
+                    <div class="links-container">
+                        <ul class="links">
+                            <li>
+                                <a
+                                    href="#"
+                                    class="active"
+                                    data-section=".about-us"
+                                    >About</a
+                                >
+                            </li>
+                            <li><a href="#" data-section=".menu">Menu</a></li>
+                            <li>
+                                <a href="#" data-section=".timeline"
+                                    >Timeline</a
+                                >
+                            </li>
+                            <li>
+                                <a href="#" data-section=".we-provide"
+                                    >We Provide</a
+                                >
+                            </li>
+                            <li>
+                                <a href="#" data-section=".they-said"
+                                    >They Said</a
+                                >
+                            </li>
+                            <li>
+                                <a href="#" data-section=".contact">Contact</a>
+                            </li>
+                        </ul>
+                        <button class="toggle-menu">
+                            <span id="bar1"></span>
+                            <span id="bar2"></span>
+                            <span id="bar3"></span>
+                        </button>
+                    </div>
+                </nav>
+            </div>
+            <!-- End Navbar -->
+
+            <div class="introduction-text">
+                <h1>
+                    <span>With</span> <span>Every</span> <span>Bite</span>
+                    <span>a</span> <span>STORY</span>
+                </h1>
+                <p>
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit. At
+                    ipsa natus consequatur cupiditate ratione iure.
+                </p>
+            </div>
+        </div>
+        <!-- End Landnig Page -->
+
+        <!-- Start About Us -->
+        <div class="container">
+            <div class="about-us">
+                <div class="info-box">
+                    <h2>About Us</h2>
+                    <p>
+                        Lorem ipsum, dolor sit amet consectetur adipisicing
+                        elit. Ipsam adipisci porro corrupti. Eaque cumque dolor
+                        ipsa sequi similique. Doloremque quos earum, non sed
+                        aliquid quaerat. Repudiandae aspernatur necessitatibus
+                        blanditiis? Minus. sequi similique. Doloremque quos
+                        earum, non sed aliquid quaerat. Repudiandae aspernatur
+                        necessitatibus blanditiis? Minus.
+                    </p>
+                </div>
+                <div class="image-box">
+                    <img src="./imgs/PngItem_236596.png" alt="" />
+                </div>
+            </div>
+        </div>
+        <!-- End About Us -->
+
+        <!-- Start Our Menu -->
+        <div class="menu">
+            <div class="container">
+                <h2>Our Menu</h2>
+                <div class="images-box">
+                    <img src="./imgs/meal1.jpg" alt="Meal 01" />
+                    <img src="./imgs/meal2.jpg" alt="Meal 02" />
+                    <img src="./imgs/meal3.jpg" alt="Meal 03" />
+                    <img src="./imgs/meal4.jpg" alt="Meal 04" />
+                    <img src="./imgs/meal5.jpg" alt="Meal 05" />
+                    <img src="./imgs/meal6.jpg" alt="Meal 06" />
+                    <img src="./imgs/meal7.jpg" alt="Meal 07" />
+                    <img src="./imgs/meal8.jpg" alt="Meal 08" />
+                    <img src="./imgs/meal9.jpg" alt="Meal 09" />
+                    <img src="./imgs/meal10.jpg" alt="Meal 10" />
+                    <img src="./imgs/meal9.jpg" alt="Meal 09" />
+                    <img src="./imgs/meal10.jpg" alt="Meal 10" />
+                </div>
+            </div>
+        </div>
+        <!-- End Our Menu -->
+
+        <!-- Start TimeLine -->
+        <div class="timeline">
+            <h2>Timeline</h2>
+            <div class="container">
+                <div class="timeline-content">
+                    <div class="year">2020</div>
+                    <div class="left">
+                        <div class="content">
+                            <h3>Test</h3>
+                            <p>
+                                Lorem ipsum dolor sit amet consectetur
+                                adipisicing elit. Enim ipsum consectetur dolore
+                                vero nemo, ipsam hic quam animi necessitatibus,
+                                facilis iste delectus voluptatem doloremque
+                                praesentium tempora expedita tenetur totam
+                                ratione.
+                            </p>
+                        </div>
+                    </div>
+                    <div class="clearfix"></div>
+                    <div class="right">
+                        <div class="content">
+                            <h3>Test</h3>
+                            <p>
+                                Lorem ipsum dolor sit amet consectetur
+                                adipisicing elit. Enim ipsum consectetur dolore
+                                vero nemo, ipsam hic quam animi necessitatibus,
+                                facilis iste delectus voluptatem doloremque
+                                praesentium tempora expedita tenetur totam
+                                ratione.
+                            </p>
+                        </div>
+                    </div>
+                    <div class="clearfix"></div>
+                    <div class="year">2021</div>
+                    <div class="clearfix"></div>
+                    <div class="left">
+                        <div class="content">
+                            <h3>Test</h3>
+                            <p>
+                                Lorem ipsum dolor sit amet consectetur
+                                adipisicing elit. Enim ipsum consectetur dolore
+                                vero nemo, ipsam hic quam animi necessitatibus,
+                                facilis iste delectus voluptatem doloremque
+                                praesentium tempora expedita tenetur totam
+                                ratione.
+                            </p>
+                        </div>
+                    </div>
+                    <div class="clearfix"></div>
+                    <div class="left">
+                        <div class="content">
+                            <h3>Test</h3>
+                            <p>
+                                Lorem ipsum dolor sit amet consectetur
+                                adipisicing elit. Enim ipsum consectetur dolore
+                                vero nemo, ipsam hic quam animi necessitatibus,
+                                facilis iste delectus voluptatem doloremque
+                                praesentium tempora expedita tenetur totam
+                                ratione.
+                            </p>
+                        </div>
+                    </div>
+                    <div class="clearfix"></div>
+                    <div class="year">2022</div>
+                    <div class="clearfix"></div>
+                    <div class="right">
+                        <div class="content">
+                            <h3>Test</h3>
+                            <p>
+                                Lorem ipsum dolor sit amet consectetur
+                                adipisicing elit. Enim ipsum consectetur dolore
+                                vero nemo, ipsam hic quam animi necessitatibus,
+                                facilis iste delectus voluptatem doloremque
+                                praesentium tempora expedita tenetur totam
+                                ratione.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- End TimeLine -->
+
+        <!-- Start Our We Provide -->
+        <div class="we-provide">
+            <h2>We Provide</h2>
+            <div class="container">
+                <div class="feat-box">
+                    <img src="./imgs/feature1.jpeg" alt="" />
+                    <h4>Feature 01</h4>
+                    <p>
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                        Rerum, repudiandae.
+                    </p>
+                </div>
+                <div class="feat-box">
+                    <img src="./imgs/feature2.jpg" alt="" />
+                    <h4>Feature 02</h4>
+                    <p>
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                        Rerum, repudiandae.
+                    </p>
+                </div>
+                <div class="feat-box">
+                    <img src="./imgs/feature3.jpg" alt="" />
+                    <h4>Feature 03</h4>
+                    <p>
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                        Rerum, repudiandae.
+                    </p>
+                </div>
+                <div class="feat-box">
+                    <img src="./imgs/feature4.jpg" alt="" />
+                    <h4>Feature 04</h4>
+                    <p>
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                        Rerum, repudiandae.
+                    </p>
+                </div>
+                <div class="feat-box">
+                    <img src="./imgs/feature5.jpg" alt="" />
+                    <h4>Feature 05</h4>
+                    <p>
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                        Rerum, repudiandae.
+                    </p>
+                </div>
+                <div class="feat-box">
+                    <img src="./imgs/feature6.jpg" alt="" />
+                    <h4>Feature 06</h4>
+                    <p>
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                        Rerum, repudiandae.
+                    </p>
+                </div>
+            </div>
+        </div>
+        <!-- End Our We Provide -->
+
+        <!-- Start Tesimonials -->
+        <div class="they-said">
+            <h2>What They Said About Us</h2>
+            <div class="container">
+                <div class="ts-box">
+                    <p>
+                        Lorem ipsum dolor sit amet uhjghkj consectetur
+                        adipisicing elit. Voluptates, ad!
+                    </p>
+                    <div class="person-info">
+                        <img src="./imgs/char01.jpg" alt="" />
+                        <div class="img-info">
+                            <h4>Imad eddine</h4>
+                            <p>Frontend web developer</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="ts-box">
+                    <p>
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                        Architecto, quisquam?
+                    </p>
+                    <div class="person-info">
+                        <img src="./imgs/char02.jpg" alt="" />
+                        <div class="img-info">
+                            <h4>Imad eddine</h4>
+                            <p>Frontend web developer</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="ts-box">
+                    <p>
+                        Lorem ipsum dolor sit amet, consectetur adipisicing
+                        elit. Veritatis, cumque!
+                    </p>
+                    <div class="person-info">
+                        <img src="./imgs/char03.jpg" alt="" />
+                        <div class="img-info">
+                            <h4>Imad eddine</h4>
+                            <p>Frontend web developer</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="clearfix"></div>
+            </div>
+        </div>
+        <!-- End Tesimonials -->
+
+        <!-- Start Nav Bullets -->
+        <div class="nav-bullets">
+            <div class="bullet" data-section=".about-us">
+                <div class="tooltip">About Us</div>
+            </div>
+            <div class="bullet" data-section=".menu">
+                <div class="tooltip">Our Menu</div>
+            </div>
+            <div class="bullet" data-section=".timeline">
+                <div class="tooltip">Timeline</div>
+            </div>
+            <div class="bullet" data-section=".we-provide">
+                <div class="tooltip">We Provide</div>
+            </div>
+            <div class="bullet" data-section=".they-said">
+                <div class="tooltip">They Said</div>
+            </div>
+            <div class="bullet" data-section=".contact">
+                <div class="tooltip">Contact Us</div>
+            </div>
+        </div>
+        <!-- End Nav Bullets -->
+
+        <!-- Start Contact Us -->
+        <!-- <div class="contact">
+        <div class="overlay"></div>
+        <div class="container">
+            <h2>Contact Us</h2>
+            <form action="">
+                <div class="left">
+                    <input type="text" placeholder="Your Name" name="username">
+                    <input type="phone" placeholder="Your Phone" name="phone">
+                    <input type="email" placeholder="Your Email" name="email">
+                    <input type="text" placeholder="Subject" name="subject">
+                </div>
+                <div class="right">
+                    <textarea name="message" placeholder="Your Message"></textarea>
+                    <input type="submit" value="Send">
+                </div>
+            </form>
+        </div>
+    </div> -->
+        <!-- End Contact Us -->
+
+        <!-- Start Footer -->
+        <footer class="contact">
+            <div class="overlay"></div>
+            <div class="container">
+                <div class="collum1">
+                    <div class="logo">
+                        <img
+                            src="./imgs/SeekPng.com_restaurant-icon-png_2018208.png"
+                            alt=""
+                        />
+                    </div>
+                    <h3>Follow Us Here</h3>
+                    <div class="social-media-list">
+                        <div>
+                            <a href="" target="_blank"
+                                ><i class="fa-brands fa-facebook-f fa-2x"></i
+                            ></a>
+                        </div>
+                        <div>
+                            <a href="" target="_blank"
+                                ><i class="fa-brands fa-twitter fa-2x"></i
+                            ></a>
+                        </div>
+                        <div>
+                            <a href="" target="_blank"
+                                ><i class="fa-brands fa-instagram fa-2x"></i
+                            ></a>
+                        </div>
+                        <div>
+                            <a href="" target="_blank"
+                                ><i class="fa-brands fa-youtube fa-2x"></i
+                            ></a>
+                        </div>
+                    </div>
+                    <div class="address">
+                        <h3>Address</h3>
+                        <p>1234 Street Name</p>
+                        <p>City, AA 99999</p>
+                    </div>
+                </div>
+                <div class="collum2">
+                    <h3>Openning Hours</h3>
+                    <div class="timing">
+                        <div class="days">
+                            <span>Monday</span>
+                            <span>Monday</span>
+                            <span>Monday</span>
+                            <span>Monday</span>
+                            <span>Monday</span>
+                            <span>Monday</span>
+                            <span>Monday</span>
+                        </div>
+                        <div class="hours">
+                            <span>11:00 - 20:00</span>
+                            <span>11:00 - 20:00</span>
+                            <span>11:00 - 20:00</span>
+                            <span>11:00 - 20:00</span>
+                            <span>11:00 - 20:00</span>
+                            <span>11:00 - 20:00</span>
+                            <span>Closed</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="collum3">
+                    <h3>Contact Us</h3>
+                    <form class="contact-form" action="">
+                        <input
+                            type="text"
+                            placeholder="Your Name"
+                            name="username"
+                        />
+                        <input
+                            type="phone"
+                            placeholder="Your Phone"
+                            name="phone"
+                        />
+                        <input
+                            type="email"
+                            placeholder="Your Email"
+                            name="email"
+                        />
+                        <textarea
+                            name="message"
+                            placeholder="Your Message"
+                        ></textarea>
+                        <input type="submit" value="Send" />
+                    </form>
+                </div>
+            </div>
+        </footer>
+        <p class="copyright">Made by <span>3imad</span> &copy; 2022</p>
+        <!-- End Footer -->
+
+        <!-- Start Scroll Up -->
+        <div class="scroll"><i class="fa-solid fa-angles-up fa-2x"></i></div>
+        <!-- End Scroll Up -->
+
+        <script src="./JS/main.js"></script>
+        <script src="./JS/headroom.js"></script>
+    </body>
+</html>
