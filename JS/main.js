@@ -119,7 +119,7 @@ let index = 1;
 function randomize() {
     if (backgroundOption === true) {
         backgroundIntercal = setInterval(() => {
-            landingPage.style.backgroundImage = 'url("/imgs/' + imgsArray[index++] + '")';
+            landingPage.style.backgroundImage = 'url("../imgs/' + imgsArray[index++] + '")';
             if (index > 4) {
                 index = 0;
             }
@@ -145,7 +145,7 @@ ourMenu.forEach(img => {
         let popupBox = document.createElement("div");
         popupBox.className = "popup-box";
 
-        // Add Ttile above the image
+        // Add The tile above the image
         if (img.alt !== null) {
             let imgHeading = document.createElement("h3");
             let imgText = document.createTextNode(img.alt);
