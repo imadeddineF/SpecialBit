@@ -931,7 +931,7 @@ a {
 footer {
     position: relative;
     min-height: 600px;
-    background-image: url(/imgs/Restaurant-reservations.jpg);
+    background-image: url(../imgs/Restaurant-reservations.jpg);
     background-size: cover;
     position: relative;
     padding-bottom: 80px;
