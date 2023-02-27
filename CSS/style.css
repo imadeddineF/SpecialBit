@@ -369,6 +369,7 @@ a {
     background-color: #FFFFFF;
     box-shadow: #ADCFFF 0 -12px 6px inset;
     transition: all .2s;
+    user-select: none;
     -webkit-user-select: none;
     touch-action: manipulation;
 }
